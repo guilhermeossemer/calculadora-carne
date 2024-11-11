@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora tara</title>
+    <link rel="icon" href="logo-koch.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="logo-koch.png" alt="Logo-superkoch" class="logo">
+    </header>
+    <main>
+        <section>
+            <p class="tara">Tara embalagem:<input type="number" id="tara" placeholder="EX: 10" required
+                    autocomplete="off"></p>
+            <p class="qtdPeca">Qtd de peças:<input type="number" id="qtdPeca" placeholder="EX: 25" required
+                    autocomplete="off"></p>
+            <p class="pesoBalanca">Peso da balança:<input type="number" id="pesoBalanca" placeholder="EX: 100" required
+                    autocomplete="off"></p>
+            <button class="btn" onclick="calcularTara()">Calcular</button>
+            <p class="resultado-liquido">Peso liquido:</p>
+            <p class="resultado" id="resultado"></p>
+        </section>
+    </main>
+</body>
+<script src="main.js"></script>
+
+</html>
